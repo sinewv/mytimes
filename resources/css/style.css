@@ -1,0 +1,35 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.header .logo {
+  display: flex;
+}
+
+#logoimg {
+  margin: 10px 10px 10px 20px;
+}
+
+#logotext {
+  color: MediumAquaMarine;
+  margin-top: 30px;
+}
+
+.uppernavlist li {
+  display: inline-block;
+}
+
+.uppernavlist li span a{
+  margin: 10px;
+  color: black;
+}
+
+.uppernav {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
