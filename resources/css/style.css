@@ -8,6 +8,7 @@
 
 .header .logo {
   display: flex;
+  align-content: center;
 }
 
 #logoimg {
@@ -17,6 +18,9 @@
 #logotext {
   color: MediumAquaMarine;
   margin-top: 30px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .uppernavlist li {
@@ -32,4 +36,73 @@
   position: absolute;
   right: 30px;
   top: 30px;
+}
+
+.main {
+  display: flex;
+  /*align-content: stretch;*/
+}
+
+/*.main div {
+  border: 1px solid black;
+}*/
+
+.main.large {
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+
+.main.medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+  align-items: stretch;
+}
+
+.main.small {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+}
+
+.mainimg {
+  display: flex;
+  background-image: URL("../images/main.png");
+}
+
+.fall {
+  display: inline-flex;
+  background-image: URL("../images/fall.png");
+  flex-grow: 1;
+}
+
+.hipster {
+  display: inline-flex;
+  background-image: URL("../images/hipster.png");
+}
+
+.cat {
+  display: flex;
+  background-image: URL("../images/cat.png");
+}
+
+body p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
